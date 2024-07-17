@@ -2,6 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
   name: argo-rollout-example
+  namespace: argo-rollouts
 spec:
   replicas: 5
   strategy:
